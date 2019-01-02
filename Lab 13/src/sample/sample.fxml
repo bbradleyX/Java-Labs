@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="650" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="colorTypeLabel" layoutX="32.0" layoutY="22.0" text="Color Type" textFill="WHITE" />
+      <RadioButton fx:id="p2RB" contentDisplay="CENTER" layoutX="204.0" layoutY="22.0" mnemonicParsing="false" text="P1" textFill="#3137dd" />
+      <RadioButton fx:id="p1RB" contentDisplay="CENTER" layoutX="301.0" layoutY="22.0" mnemonicParsing="false" text="P2" textFill="#46db32" />
+      <RadioButton fx:id="p3RB" contentDisplay="CENTER" layoutX="391.0" layoutY="22.0" mnemonicParsing="false" text="P3" textFill="#db3241" />
+      <RadioButton fx:id="greyRB" contentDisplay="CENTER" layoutX="501.0" layoutY="22.0" mnemonicParsing="false" text="Greyscale" textFill="#9b9b9e" />
+      <Label fx:id="paperTypeLabel" layoutX="32.0" layoutY="83.0" text="Paper Type" textFill="WHITE" />
+      <RadioButton fx:id="matteRB" contentDisplay="CENTER" layoutX="204.0" layoutY="83.0" mnemonicParsing="false" text="Matte" textFill="#eeeef5" />
+      <RadioButton fx:id="glossyRB" contentDisplay="CENTER" layoutX="301.0" layoutY="83.0" mnemonicParsing="false" text="Glossy" textFill="#eeeef5" />
+      <Label fx:id="sidedLabel" layoutX="32.0" layoutY="154.0" text="Sided" textFill="WHITE" />
+      <RadioButton fx:id="singleRB" contentDisplay="CENTER" layoutX="204.0" layoutY="154.0" mnemonicParsing="false" text="Single" textFill="#eeeef5" />
+      <RadioButton fx:id="doubleRB" contentDisplay="CENTER" layoutX="301.0" layoutY="154.0" mnemonicParsing="false" text="Double" textFill="#eeeef5" />
+      <Label fx:id="numPageLabel" layoutX="32.0" layoutY="226.0" text="Number of Pages" textFill="WHITE" />
+      <TextField fx:id="numPageTF" layoutX="182.0" layoutY="221.0" />
+      <Label fx:id="costPerPageLabel" layoutX="51.0" layoutY="337.0" textFill="#eeeef5" />
+      <Label fx:id="totalCostLabel" layoutX="34.0" layoutY="392.0" textFill="#eeeef5" />
+      <Label layoutX="73.0" layoutY="403.0" textFill="#f5f4f4" />
+   </children>
+</AnchorPane>
